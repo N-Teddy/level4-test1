@@ -1,0 +1,58 @@
+-> Students {1}
+   id
+   first name
+   last name
+   profile
+
+-> Instructor{1}
+   instructor id
+   instructor name
+   profile
+
+-> courses {1}
+   course id
+   course name
+   description
+   category
+   schedule id
+   classroom id
+
+-> Schedule
+   schedule id
+   start date
+   end date
+   time
+   classroom
+
+-> Classroom
+   classroom id
+   location
+   capacity
+
+-> Category {1}
+   category id
+   category name
+
+-> feedback
+   feedback id
+   instructor id
+   course id
+   feedback message
+   evaluation id
+
+-> Calendar 
+   calender id
+   events
+   notificationsini
+
+-> reports
+   report id
+   student id
+   attendance report
+   performance report
+
+-> user portal 
+   portal id
+   user role
+   internal messages
+   
